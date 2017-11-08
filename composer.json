@@ -1,0 +1,27 @@
+{
+    "name": "stigma/html-elements",
+    "description": "Creates and manipulates HTML tags as Objects",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro Antonello",
+            "email": "lantonello@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "lantonello@gmail.com"
+    },
+    "autoload":{
+        "psr-4":{
+            "Stigma\\HTMLElements\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
